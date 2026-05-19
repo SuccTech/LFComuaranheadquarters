@@ -1,0 +1,20 @@
+.para1 {
+    color: purple;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+    background-color: red;
+    padding: 60px;
+    border-color: #296a64;
+    border-width: thick;
+    border-style: ridge;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.para2 {
+    color: yellow;
+}
+

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: aqua;
+    font-family: Arial, sans-serif;
+}
+
+/* MARQUEE */
+.marquee1 {
+    background-color: yellow;
+    color: red;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* CENTER CONTENT */
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+/* MAIN TEXT */
+.para1 {
+    text-transform: uppercase;
+    font-size: 28px;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* SUB TEXT */
+.para2 {
+    font-size: 18px;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+button {
+    background-color: #1505ff;
+    width: 250px;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+/* 📱 MOBILE RESPONSIVE */
+@media screen and (max-width: 768px) {
+    .para1 {
+        font-size: 18px;
+    }
+
+    .para2 {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .marquee1 {
+        font-size: 18px;
+    }
+}

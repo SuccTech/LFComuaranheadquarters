@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #00d4ff;
+            text-decoration: underline;
+            text-transform: uppercase;
+            font-size: 26px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .para1 {
+            color: #00ffcc;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 18px;
+            margin: 20px;
+        }
+
+        .below {
+            text-decoration: underline;
+        }
+
+        ul, ol {
+            font-size: 18px;
+            line-height: 1.7;
+            padding: 0 20px;
+        }
+
+        .ul1 {
+            color: #ffe600;
+        }
+
+        .ol1 {
+            color: #00ff6a;
+        }
+
+        img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .image-box {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        a:link { color: aqua; }
+        a:visited { color: lightgreen; }
+        a:hover { color: yellow; }
+
+        /* 📱 MOBILE RESPONSIVE */
+        @media screen and (max-width: 768px) {
+
+            h2 {
+                font-size: 18px;
+            }
+
+            .para1 {
+                font-size: 14px;
+                margin: 10px;
+            }
+
+            ul, ol {
+                font-size: 14px;
+                padding: 0 10px;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            .image-box {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <p class="para1">
+        The information of this church goes <span class="below"><b>BELOW</b></span>
+    </p>
+
+    <h2>The Beginning Of Bishop David O. Oyedepo Ministry</h2>
+
+    <div class="container">
+
+        <ul class="ul1">
+            <li>Born on September 27th, 1954. Studied Architecture and later PhD in Human Development.</li>
+            <li>Born again – Feb. 19, 1969.</li>
+            <li>Received call to ministry – May 2, 1981.</li>
+            <li>Began Faith Liberation Hour – May 29, 1981.</li>
+            <li>First church planted in Kaduna – 1983.</li>
+            <li>Published first books – 1985.</li>
+            <li>Founded Bible Institute – 1986.</li>
+            <li>Moved to Lagos – 1989.</li>
+            <li>Founded Dominion Publishing House – 1992.</li>
+        </ul>
+
+        <div class="image-box">
+            <img src="Bishop 2.png" alt="Bishop 2">
+            <img src="Bishop 1.png" alt="Bishop 1">
+        </div>
+
+        <h2>Awards and Recognition</h2>
+
+        <ol class="ol1">
+            <li>Fellow of Nigerian Academy of Education</li>
+            <li>Leadership Excellence Award (2011)</li>
+            <li>Distinguished Education Award (2012)</li>
+            <li>Honorary Doctor of Divinity</li>
+            <li>Road named after him in Abuja</li>
+            <li>Top 100 most reputable people</li>
+        </ol>
+
+    </div>
+
+</body>
+</html>
